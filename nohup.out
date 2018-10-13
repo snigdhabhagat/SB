@@ -1,0 +1,1588 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 10, 2018 - 19:42:56
+Django version 2.0.4, using settings 'mysite.settings'
+Starting development server at http://0:8080/
+Quit the server with CONTROL-C.
+[10/Oct/2018 19:45:04] "GET / HTTP/1.1" 200 324
+[10/Oct/2018 19:45:07] "GET /logout/ HTTP/1.1" 302 0
+[10/Oct/2018 19:45:08] "GET /login/ HTTP/1.1" 200 1048
+[10/Oct/2018 19:45:17] "GET /login/ HTTP/1.1" 200 1048
+[10/Oct/2018 19:45:24] "POST /login/ HTTP/1.1" 302 0
+[10/Oct/2018 19:45:24] "GET / HTTP/1.1" 200 324
+[10/Oct/2018 19:45:27] "GET /logout/ HTTP/1.1" 302 0
+[10/Oct/2018 19:45:27] "GET /login/ HTTP/1.1" 200 1048
+[10/Oct/2018 21:52:15] "GET / HTTP/1.1" 302 0
+[10/Oct/2018 21:55:42] "GET / HTTP/1.1" 302 0
+[10/Oct/2018 23:21:54] "GET / HTTP/1.1" 302 0
+[10/Oct/2018 23:21:55] "GET /login/?next=/ HTTP/1.1" 200 1049
+[11/Oct/2018 00:07:54] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 01:34:38] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 02:16:02] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+[11/Oct/2018 02:27:47] "CONNECT www.google.com:443 HTTP/1.1" 400 59812
+[11/Oct/2018 02:56:36] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 02:56:36] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 07:11:47] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 07:51:59] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 07:52:00] "GET /login/?next=/ HTTP/1.1" 200 1049
+Not Found: /favicon.ico
+[11/Oct/2018 07:52:00] "GET /favicon.ico HTTP/1.1" 404 2356
+Not Found: /favicon.ico
+[11/Oct/2018 07:52:00] "GET /favicon.ico HTTP/1.1" 404 2356
+[11/Oct/2018 07:52:15] "POST /login/?next=/ HTTP/1.1" 200 1157
+[11/Oct/2018 07:52:18] "GET /signup/ HTTP/1.1" 200 1354
+[11/Oct/2018 07:52:27] "POST /signup/ HTTP/1.1" 302 0
+[11/Oct/2018 07:52:28] "GET / HTTP/1.1" 200 327
+[11/Oct/2018 07:52:31] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2018 07:52:31] "GET /login/ HTTP/1.1" 200 1048
+[11/Oct/2018 07:53:26] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 07:53:26] "GET /login/?next=/ HTTP/1.1" 200 1049
+[11/Oct/2018 08:09:08] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 08:09:09] "GET /login/?next=/ HTTP/1.1" 200 1049
+[11/Oct/2018 08:30:15] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9e\x01\x00\x00\x9a\x03\x03[¿')
+[11/Oct/2018 08:30:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Oct/2018 08:30:17] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9e\x01\x00\x00\x9a\x03\x03[¿')
+[11/Oct/2018 08:30:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Oct/2018 08:30:18] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9e\x01\x00\x00\x9a\x03\x03[¿')
+[11/Oct/2018 08:30:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Oct/2018 08:30:19] code 400, message Bad request syntax ('\x16\x03\x01\x00\x9e\x01\x00\x00\x9a\x03\x03[¿')
+[11/Oct/2018 08:30:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Oct/2018 08:32:02] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 08:32:02] "GET /login/?next=/ HTTP/1.1" 200 1049
+[11/Oct/2018 08:32:48] "POST /login/?next=/ HTTP/1.1" 302 0
+[11/Oct/2018 08:32:49] "GET / HTTP/1.1" 200 327
+[11/Oct/2018 08:44:42] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 08:44:43] "GET /login/?next=/ HTTP/1.1" 200 1049
+Not Found: /favicon.ico
+[11/Oct/2018 08:44:45] "GET /favicon.ico HTTP/1.1" 404 2356
+[11/Oct/2018 08:44:55] "POST /login/?next=/ HTTP/1.1" 200 1157
+[11/Oct/2018 08:44:57] "GET /signup/ HTTP/1.1" 200 1354
+[11/Oct/2018 08:45:11] "POST /signup/ HTTP/1.1" 200 1457
+[11/Oct/2018 08:45:29] "POST /signup/ HTTP/1.1" 302 0
+[11/Oct/2018 08:45:29] "GET / HTTP/1.1" 200 326
+[11/Oct/2018 08:45:32] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2018 08:45:32] "GET /login/ HTTP/1.1" 200 1048
+[11/Oct/2018 08:45:40] "POST /login/ HTTP/1.1" 302 0
+[11/Oct/2018 08:45:41] "GET / HTTP/1.1" 200 326
+[11/Oct/2018 09:04:03] code 400, message Bad request version ('\xadnÜÌ´y')
+[11/Oct/2018 09:04:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Oct/2018 09:04:04] code 400, message Bad request version ('\xadnÜÌ´y')
+[11/Oct/2018 09:04:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Oct/2018 09:04:04] code 400, message Bad request version ('\xadnÜÌ´y')
+[11/Oct/2018 09:04:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '34.228.214.252  :8080'. The domain name provided is not valid according to RFC 1034/1035.
+[11/Oct/2018 09:05:33] "GET /manager/html HTTP/1.1" 400 59862
+[11/Oct/2018 09:17:29] code 400, message Bad request version ('\xadnÜÌ´y')
+[11/Oct/2018 09:17:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Oct/2018 09:20:22] "GET / HTTP/1.1" 200 326
+[11/Oct/2018 09:20:25] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2018 09:20:26] "GET /login/ HTTP/1.1" 200 1048
+[11/Oct/2018 09:21:00] "POST /login/ HTTP/1.1" 200 1158
+[11/Oct/2018 09:21:14] "POST /login/ HTTP/1.1" 302 0
+[11/Oct/2018 09:21:14] "GET / HTTP/1.1" 200 326
+[11/Oct/2018 09:39:41] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 09:39:41] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 09:39:41] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 09:45:21] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 10:35:03] code 400, message Bad request version ('\xadnÜÌ´y')
+[11/Oct/2018 10:35:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Oct/2018 12:15:52] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 13:30:11] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 13:34:34] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 14:48:27] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 14:48:27] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[11/Oct/2018 15:20:55] "GET / HTTP/1.0" 400 59305
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/Oct/2018 15:20:55] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('62.24.119.222', 34827)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[11/Oct/2018 16:39:41] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[11/Oct/2018 18:33:09] "GET / HTTP/1.0" 400 59306
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[11/Oct/2018 18:33:09] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('187.134.246.30', 40168)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[11/Oct/2018 19:57:52] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 21:00:14] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 21:00:14] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 21:07:05] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 21:07:08] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 22:01:23] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[11/Oct/2018 22:18:22] "GET / HTTP/1.0" 400 59305
+[11/Oct/2018 22:41:24] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 23:14:35] "GET / HTTP/1.1" 302 0
+[11/Oct/2018 23:14:36] "GET /login/?next=/ HTTP/1.1" 200 1049
+Invalid HTTP_HOST header: '34.228.214.252  :8080'. The domain name provided is not valid according to RFC 1034/1035.
+[11/Oct/2018 23:26:10] "GET /manager/html HTTP/1.1" 400 59863
+[11/Oct/2018 23:49:50] code 400, message Bad request version ('\xadnÜÌ´y')
+[11/Oct/2018 23:49:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[12/Oct/2018 00:13:15] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 00:17:31] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'www.rfa.org'. You may need to add 'www.rfa.org' to ALLOWED_HOSTS.
+[12/Oct/2018 00:28:23] "GET http://www.rfa.org/english/ HTTP/1.1" 400 60698
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 00:28:23] "GET http://www.rfa.org/english/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('1.202.76.123', 22695)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.ip.cn'. You may need to add 'www.ip.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.minghui.org'. You may need to add 'www.minghui.org' to ALLOWED_HOSTS.
+[12/Oct/2018 00:28:24] "GET http://www.minghui.org/ HTTP/1.1" 400 60865
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 00:28:24] "GET http://www.minghui.org/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('175.42.2.99', 41795)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[12/Oct/2018 00:28:24] "GET http://www.ip.cn/ HTTP/1.1" 400 60708
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 00:28:24] "GET http://www.ip.cn/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('122.96.29.97', 34092)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.epochtimes.com'. You may need to add 'www.epochtimes.com' to ALLOWED_HOSTS.
+[12/Oct/2018 00:28:30] "GET http://www.epochtimes.com/ HTTP/1.1" 400 60745
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 00:28:30] "GET http://www.epochtimes.com/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('139.170.68.211', 18188)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.123cha.com'. You may need to add 'www.123cha.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.voanews.com:443'. You may need to add 'www.voanews.com' to ALLOWED_HOSTS.
+[12/Oct/2018 00:28:31] "GET http://www.123cha.com/ HTTP/1.1" 400 60692
+[12/Oct/2018 00:28:31] "CONNECT www.voanews.com:443 HTTP/1.1" 400 59950
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 00:28:31] "CONNECT www.voanews.com:443 HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('139.170.66.206', 36554)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[12/Oct/2018 00:45:09] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 01:50:18] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 01:50:18] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 03:28:24] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 03:31:42] "GET / HTTP/1.0" 302 0
+[12/Oct/2018 04:43:16] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/Oct/2018 04:43:16] " " 400 -
+[12/Oct/2018 04:43:23] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/Oct/2018 04:43:23] " " 400 -
+[12/Oct/2018 04:43:29] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/Oct/2018 04:43:29] " " 400 -
+[12/Oct/2018 04:44:45] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Ò2\x00')
+[12/Oct/2018 04:44:45] " P¼Ò2 " 400 -
+[12/Oct/2018 04:44:50] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Ò2\x00')
+[12/Oct/2018 04:44:50] " P¼Ò2 " 400 -
+[12/Oct/2018 04:44:57] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Ò2\x00')
+[12/Oct/2018 04:44:57] " P¼Ò2 " 400 -
+Invalid HTTP_HOST header: '5.188.210.50'. You may need to add '5.188.210.50' to ALLOWED_HOSTS.
+[12/Oct/2018 04:46:56] "GET http://5.188.210.50/echo.php HTTP/1.1" 400 60796
+[12/Oct/2018 05:26:46] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 06:48:08] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 06:48:09] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[12/Oct/2018 07:13:32] "GET / HTTP/1.0" 400 59609
+Invalid HTTP_HOST header: '34.228.214.252  :8080'. The domain name provided is not valid according to RFC 1034/1035.
+[12/Oct/2018 07:35:29] "GET /manager/html HTTP/1.1" 400 59862
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[12/Oct/2018 07:40:31] "CONNECT www.baidu.com HTTP/1.1" 400 59712
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 07:40:31] "CONNECT www.baidu.com HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('106.91.211.206', 49593)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.123cha.com'. You may need to add 'www.123cha.com' to ALLOWED_HOSTS.
+[12/Oct/2018 07:40:43] "GET http://www.123cha.com/ HTTP/1.1" 400 60842
+Invalid HTTP_HOST header: 'boxun.com'. You may need to add 'boxun.com' to ALLOWED_HOSTS.
+[12/Oct/2018 07:40:44] "GET http://boxun.com/ HTTP/1.1" 400 60710
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 07:40:44] "GET http://boxun.com/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('58.248.207.233', 38368)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.voanews.com:443'. You may need to add 'www.voanews.com' to ALLOWED_HOSTS.
+[12/Oct/2018 07:40:44] "CONNECT www.voanews.com:443 HTTP/1.1" 400 59949
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 07:40:44] "CONNECT www.voanews.com:443 HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('223.166.75.59', 41796)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.epochtimes.com'. You may need to add 'www.epochtimes.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.minghui.org'. You may need to add 'www.minghui.org' to ALLOWED_HOSTS.
+[12/Oct/2018 07:40:46] "GET http://www.minghui.org/ HTTP/1.1" 400 60867
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 07:40:46] "GET http://www.minghui.org/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('113.57.114.72', 1735)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[12/Oct/2018 07:40:46] "GET http://www.epochtimes.com/ HTTP/1.1" 400 60797
+Invalid HTTP_HOST header: 'www.ip.cn'. You may need to add 'www.ip.cn' to ALLOWED_HOSTS.
+[12/Oct/2018 07:40:54] "GET http://www.ip.cn/ HTTP/1.1" 400 60709
+[12/Oct/2018 08:20:43] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 08:35:02] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 08:40:37] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 08:43:21] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 10:18:56] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 10:19:22] "GET / HTTP/1.1" 302 0
+----------------------------------------
+Exception happened during processing of request from ('61.216.152.135', 61339)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[12/Oct/2018 10:48:31] "GET / HTTP/1.0" 400 59304
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[12/Oct/2018 11:11:05] "GET / HTTP/1.0" 400 59609
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 11:11:05] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('167.99.187.156', 61772)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[12/Oct/2018 11:13:26] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 12:40:34] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 13:29:09] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'ec2-34-228-214-252.compute-1.amazonaws.com'. You may need to add 'ec2-34-228-214-252.compute-1.amazonaws.com' to ALLOWED_HOSTS.
+[12/Oct/2018 13:34:39] "GET / HTTP/1.1" 400 59832
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[12/Oct/2018 13:37:14] "GET / HTTP/1.0" 400 59305
+[12/Oct/2018 13:37:15] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 13:42:40] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 14:26:47] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 14:32:39] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 14:32:39] "GET /login/?next=/ HTTP/1.1" 200 1049
+Not Found: /manager/html
+[12/Oct/2018 15:16:50] "GET /manager/html HTTP/1.1" 404 2359
+Invalid HTTP_HOST header: 'www.epochtimes.com'. You may need to add 'www.epochtimes.com' to ALLOWED_HOSTS.
+[12/Oct/2018 15:29:44] "GET http://www.epochtimes.com/ HTTP/1.1" 400 60795
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 15:29:44] "GET http://www.epochtimes.com/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('123.139.42.23', 53770)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.minghui.org'. You may need to add 'www.minghui.org' to ALLOWED_HOSTS.
+[12/Oct/2018 15:29:44] "GET http://www.minghui.org/ HTTP/1.1" 400 60666
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 15:29:44] "GET http://www.minghui.org/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('58.248.204.90', 53784)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'cn.bing.com:443'. You may need to add 'cn.bing.com' to ALLOWED_HOSTS.
+[12/Oct/2018 15:29:45] "CONNECT cn.bing.com:443 HTTP/1.1" 400 59847
+Invalid HTTP_HOST header: 'www.voanews.com:443'. You may need to add 'www.voanews.com' to ALLOWED_HOSTS.
+[12/Oct/2018 15:29:46] "CONNECT www.voanews.com:443 HTTP/1.1" 400 59950
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 15:29:46] "CONNECT www.voanews.com:443 HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('221.11.229.158', 7842)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'boxun.com'. You may need to add 'boxun.com' to ALLOWED_HOSTS.
+[12/Oct/2018 15:29:47] "GET http://boxun.com/ HTTP/1.1" 400 60709
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 15:29:47] "GET http://boxun.com/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('124.90.51.124', 32049)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'www.ip.cn'. You may need to add 'www.ip.cn' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.baidu.com:443'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.wujieliulan.com'. You may need to add 'www.wujieliulan.com' to ALLOWED_HOSTS.
+[12/Oct/2018 15:29:49] "GET http://www.wujieliulan.com/ HTTP/1.1" 400 60822
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[12/Oct/2018 15:29:49] "GET http://www.wujieliulan.com/ HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('171.36.140.117', 54724)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[12/Oct/2018 15:29:49] "CONNECT www.baidu.com:443 HTTP/1.1" 400 59899
+[12/Oct/2018 15:29:49] "GET http://www.ip.cn/ HTTP/1.1" 400 60508
+Invalid HTTP_HOST header: 'www.123cha.com'. You may need to add 'www.123cha.com' to ALLOWED_HOSTS.
+[12/Oct/2018 15:29:52] "GET http://www.123cha.com/ HTTP/1.1" 400 60691
+[12/Oct/2018 16:11:35] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 16:11:35] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 18:40:34] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 19:03:17] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 19:19:19] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 19:34:43] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 19:34:43] "GET /login/?next=/ HTTP/1.1" 200 1049
+[12/Oct/2018 19:44:36] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 22:35:07] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 22:37:48] "GET / HTTP/1.1" 302 0
+[12/Oct/2018 22:49:10] "GET / HTTP/1.0" 302 0
+[13/Oct/2018 00:08:45] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[13/Oct/2018 00:59:01] "POST /fndex.html?id=1 HTTP/1.1" 400 59742
+[13/Oct/2018 01:27:46] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[13/Oct/2018 03:05:04] "GET / HTTP/1.0" 400 59304
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[13/Oct/2018 03:05:04] "GET / HTTP/1.0" 500 59
+----------------------------------------
+Exception happened during processing of request from ('61.6.187.140', 47651)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[13/Oct/2018 03:06:08] "GET / HTTP/1.1" 302 0
+[13/Oct/2018 03:37:33] "GET / HTTP/1.1" 302 0
+[13/Oct/2018 03:57:43] "GET / HTTP/1.1" 302 0
+[13/Oct/2018 04:07:14] "GET / HTTP/1.1" 302 0
+[13/Oct/2018 04:18:27] "GET / HTTP/1.1" 302 0
+[13/Oct/2018 04:30:32] "GET / HTTP/1.1" 302 0
+[13/Oct/2018 05:13:16] "GET / HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[13/Oct/2018 05:42:50] "HEAD / HTTP/1.0" 400 59313
+[13/Oct/2018 05:54:14] "GET / HTTP/1.1" 302 0
+[13/Oct/2018 07:13:10] "GET / HTTP/1.1" 302 0
+[13/Oct/2018 09:39:28] "GET / HTTP/1.1" 302 0
+Not Found: /manager/html
+[13/Oct/2018 11:35:32] "GET /manager/html HTTP/1.1" 404 2359
+[13/Oct/2018 11:41:57] "GET / HTTP/1.1" 302 0
+Not Found: /manager/html
+[13/Oct/2018 11:46:49] "GET /manager/html HTTP/1.1" 404 2359
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+[13/Oct/2018 11:50:16] "CONNECT www.baidu.com HTTP/1.1" 400 59710
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[13/Oct/2018 11:50:16] "CONNECT www.baidu.com HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('112.66.94.42', 31266)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/local/lib/python3.7/socketserver.py", line 796, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ec2-user/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/local/lib/python3.7/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.7/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Invalid HTTP_HOST header: 'ip-172-31-37-160.ec2.internal:8080'. You may need to add 'ip-172-31-37-160.ec2.internal' to ALLOWED_HOSTS.
+[13/Oct/2018 12:10:46] "GET / HTTP/1.0" 400 59305
+Not Found: /manager/html
+[13/Oct/2018 12:53:57] "GET /manager/html HTTP/1.1" 404 2359
