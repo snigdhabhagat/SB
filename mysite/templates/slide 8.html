@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+header {
+    background-color: #666;
+    padding: 2px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+nav {
+    float: left;
+    width: 100%;
+   	height: 100%; /* only for demonstration, should be removed */
+   
+    padding: 0px 7px;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    font-size: 17px;
+    width 100%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 30px 0px;
+    height: 100%;
+}
+
+#Incident Log {background-color: white;}
+#Task and Status {background-color: white;}
+#Incident Data {background-color: white;}
+
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Incident Log', this, 'green')">Incident Log</button>
+<button class="tablink" onclick="openPage('Task and Status', this, 'green')" id="defaultOpen">Task and Status</button>
+<button class="tablink" onclick="openPage('Incident Data', this, 'green')">Incident Data</button>
+
+
+<div id="Incident Log" class="tabcontent">
+  <h3>Incident Log</h3>
+  <p>Home is where the heart is..</p>
+</div>
+
+<div id="Task and Status" class="tabcontent">
+  <h3>Task and Status</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="Incident Data" class="tabcontent">
+<header>
+  <h2>Reference ID</h2>
+</header>
+
+<form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+<nav><h3> Individual Premise-Level Interruption </h3>
+
+<fieldset>
+<legend><h3>Incident Details</h3></legend>
+
+<label>Incident Type: &nbsp; 
+<select id="consumer_incident_type" name="incident_type"> //Check
+<option value="" selected="selected">-- Select from Drodown --</option>
+<option value="Consumer_Incident_Type1A"> Part of premise lost power </option>
+<option value="Consumer_Incident_Type1B" >Entire premise lost power</option>
+</select>
+</label>
+
+&nbsp; &nbsp;
+
+<label>Time of Incident: &nbsp;
+<input type="time" name="t_inc">
+</label>
+
+
+<p>
+<label>Device Type: &nbsp;
+<select id="device_type" name="device_type">
+<option value="" selected="selected">-- Select from Drodown --</option>
+<option value="MCB" >MCB</option>
+<option value="LV_Fuse" >Low Voltage Fuse</option>
+</select>
+</label>
+
+&nbsp; &nbsp;
+
+<label>Phases Affected: &nbsp;
+<select id="phases_affected" name="phases_affected">
+<option value="" selected="selected">-- Select from Drodown --</option>
+<option value="single_phase">Single Phase</option>
+<option value="two_phase" >Two Phases</option>
+<option value="three_phase">Three Phases</option>
+</select>
+</label>
+
+&nbsp; &nbsp;
+
+</p>
+</fieldset>
+
+<fieldset>
+<legend><h3>Assessment</h3></legend>
+
+<label>If the loss of power resulted after switching off an electric appliance or load: &nbsp; 
+<select id="answer" name="answer">
+<option value="" selected="selected">-- Select from Drodown --</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</label>
+
+<p>
+<label>Resetting or Replacement Attempted: &nbsp; 
+<select id="answer_attempt" name="answer_attempt">
+<option value="" selected="selected">-- Select from Drodown --</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</label>
+</p>
+
+<p>
+<label>Final Status: &nbsp;
+<select id="final_status" name="final_status">
+<option value="" selected="selected">-- Select from Drodown --</option>
+<option value="reset_succesful">Reset Successful</option>
+<option value="immediate_trip_or_burn">Immediate Trip / Burn</option>
+<option value="burn_after_time">Trip / Burn after some time</option>
+</select>
+</label>
+
+&nbsp; &nbsp;
+
+<label>Observable Damage: &nbsp;
+<select id="damage_type" name="damage_type">
+<option value="" selected="selected">-- Select from Drodown --</option>
+<option value="panel_fire">Panel caught fire</option>
+<option value="panel_burnt">Panel has burnt markings but no visible fire</option>
+<option value="loud_noise">Loud noise preceeding incident.</option>
+</select>
+</label>
+</p>
+
+<p>
+<label>If the consumer expects DISCOM to attend the problem: &nbsp; 
+<select id="answer_response" name="answer_response">
+<option value="" selected="selected">-- Select from Drodown --</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</label>
+</p>
+
+</fieldset>
+
+</form>
+</div>
+
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html>
