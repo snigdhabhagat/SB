@@ -21,6 +21,8 @@ class SubstationIncidentReport(models.Model):
     device_id = models.CharField(max_length=20, null=True, default=None)
     protect_type = models.CharField(max_length=64, null=True, default=None)
     t_inc = models.TimeField(null=True, default=None)
+    incident_type = models.CharField(max_length=64, null=True, default=None)
+    affected_feeder = models.CharField(max_length=128, null=True, default=None)
     element_type = models.CharField(max_length=64, null=True, default=None)
     element_id = models.CharField(max_length=64, null=True, default=None)
     fault_indicator = models.CharField(max_length=64, null=True, default=None)
@@ -48,12 +50,15 @@ class CustomerIncidentReport(models.Model):
 
     device_type = models.CharField(max_length=64, null=True, default=None)
     device_operation = models.CharField(max_length=64, null=True, default=None)
+    incident_type = models.CharField(max_length=64, null=True, default=None)
+    affected_feeder = models.CharField(max_length=128, null=True, default=None)
 
     # slide 8
     answer = models.CharField(max_length=8, null=True, default=None)
     answer_attempt = models.CharField(max_length=8, null=True, default=None)
     final_status = models.CharField(max_length=64, null=True, default=None)
     answer_response = models.CharField(max_length=64, null=True, default=None)
+    
 
     # slide 9
     cause_of_incident = models.CharField(max_length=64, null=True, default=None)
@@ -80,6 +85,8 @@ class PMCIncidentReport(models.Model):
     device_id = models.CharField(max_length=64, null=True, default=None)
     protect_type = models.CharField(max_length=64, null=True, default=None)
     t_inc = models.TimeField(null=True, default=None)
+    incident_type = models.CharField(max_length=64, null=True, default=None)
+    affected_feeder = models.CharField(max_length=128, null=True, default=None)
     element_type = models.CharField(max_length=64, null=True, default=None)
     element_id = models.CharField(max_length=64, null=True, default=None)
     fault_indicator = models.CharField(max_length=64, null=True, default=None)
